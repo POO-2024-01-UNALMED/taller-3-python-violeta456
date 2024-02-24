@@ -1,4 +1,4 @@
-class control:
+class Control:
     def __init__(self,tv):
         self._tv=tv
     

@@ -1,4 +1,4 @@
-class tv:
+class TV:
     _numTV=0
 
     def __init__(self, marca,estado):
@@ -8,7 +8,7 @@ class tv:
         self._estado=estado
         self._volumen=1
         self._control
-        tv._numTV+=1
+        TV._numTV+=1
 
     def setMarca(self,marca):
         self._marca=marca
